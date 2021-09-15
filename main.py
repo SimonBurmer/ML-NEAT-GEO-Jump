@@ -6,7 +6,7 @@ from platforms import *
 from settings import  *
 import neat
 import numpy as np
-import  visualize 
+#import  visualize 
 
 class Game:
     def __init__(self):
@@ -210,14 +210,14 @@ class Game:
             platform.draw(self.screen)
         
         # draw text
-        self.draw_text("Score: "+str(self.score), 30, WHITE, 1, 20,True)
-        self.draw_text("Fitnes: " +str(np.around(self.playerFintes)), 25, WHITE, 1, 40,True) 
-        self.draw_text("Generation: " + str(self.gernation), 25, WHITE, 20, 90)
-        self.draw_text("Alive: " +str(len(self.players)), 25, WHITE, 20, 110)
-        self.draw_text("nextPlat_dist: " +str(self.nextPlat_hight), 20, WHITE,20, 440)
-        self.draw_text("NextPlat_left: " +str(self.nextPlat_left), 20, WHITE, 20, 460)
-        self.draw_text("NextPlat_right: " +str(self.nextPlat_right), 20, WHITE, 20, 480)
-        self.draw_text("Player_co: " +str(self.myPlace), 20, WHITE, 20, 500)
+        self.draw_text("Score: "+str(self.score), 25, WHITE, 1, 20,True)
+        self.draw_text("Fitnes: " +str(np.around(self.playerFintes)), 20, WHITE, 1, 43,True) 
+        self.draw_text("Generation: " + str(self.gernation), 20, WHITE, 20, 90)
+        self.draw_text("Alive: " +str(len(self.players)), 20, WHITE, 20, 110)
+        self.draw_text("nextPlat_dist: " +str(self.nextPlat_hight), 15, WHITE,20, 440)
+        self.draw_text("NextPlat_left: " +str(self.nextPlat_left), 15, WHITE, 20, 460)
+        self.draw_text("NextPlat_right: " +str(self.nextPlat_right), 15, WHITE, 20, 480)
+        self.draw_text("Player_co: " +str(self.myPlace), 15, WHITE, 20, 500)
     
         # draw lines 
         for x,player in enumerate(self.players):
