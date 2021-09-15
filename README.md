@@ -3,3 +3,8 @@ An AI that plays my Doodle Jump inspired jumping game! Using the NEAT python mod
 
 # Instructions
 Simply run main.py and watch an AI start training itself to play the game of GEO-Jump.
+
+![Alt text](images/Geo-Jump1.png)
+![Alt text](images/Geo-Jump2.png)
+![Alt text](images/Geo-Jump3.png)
+![Alt text](images/Geo-Jump4.png)
